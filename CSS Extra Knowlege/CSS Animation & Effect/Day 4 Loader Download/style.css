@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.Loader{
+    height: 200px;
+    width: 200px;
+    border: 15px solid gray;
+    border-radius: 360px;
+    border-top-color: red;
+    border-bottom-color: red;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: Animation 1s infinite;
+    filter: drop-shadow(30px 3px blue);
+}
+    @keyframes Animation {
+        100%{
+            rotate: 360deg;
+        }
+        
+    }

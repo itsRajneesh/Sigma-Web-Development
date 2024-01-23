@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            width: 50vw;
+            border: 3px solid black;
+            background-color: beige;
+            display: grid;
+            grid-template-columns: [pehla]120px [dusra]100px [tesra];
+            grid-template-rows: 100px 100px 100px;
+        }
+        .iteam{
+            border: 2px solid red;
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+            background-color: red;
+        }
+        .iteam1MOD{
+            grid-row:1/2 ;
+            grid-column: pehla/dusra ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="iteam iteam1MOD">1</div>
+        <div class="iteam">2</div>
+        <div class="iteam">3</div>
+        <div class="iteam iteam1MOD">4</div>
+        <div class="iteam">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.loader{
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    height: 120px;
+    width: 120px;
+    border: 10px solid #a9a9a9;
+    border-radius: 360px;
+    border-top-color: red;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: Animation1 5s ease-in infinite;
+    z-index: 10;
+}
+#Text{
+    position: relative;
+    right: 110px;
+    bottom: px;
+    height: 100px;
+    width: 100px;
+}
+@keyframes Animation1 {
+    100%{
+        rotate: 360deg;
+    }
+}

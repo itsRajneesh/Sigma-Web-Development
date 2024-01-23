@@ -1,0 +1,29 @@
+/* Elementry selector */
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(255, 166, 0);
+}
+h2{
+    color: red;
+}
+h3{
+    color: red;
+}
+ul{
+    color: red;
+}
+/* Pseudo Selector */
+a:visited{
+    color: violet;
+}
+a:link{
+    color: orange;
+}
+a:hover{
+    color:blue
+}
+a:active{
+    color: red
+}

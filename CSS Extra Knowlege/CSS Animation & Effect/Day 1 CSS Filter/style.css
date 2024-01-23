@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+
+img{
+    height: 480px;
+    /* filter: blur(10px); */
+    /* filter: brightness(10); */
+    /* filter: contrast(10); */
+    /* filter: drop-shadow(16px 16px 20px blue); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(75%); */
+    /* filter: opacity(25%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(60%); */
+}
+.container{
+    text-align: center;
+}

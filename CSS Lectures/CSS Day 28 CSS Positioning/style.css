@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.box{
+    border: 2px solid black;
+    margin: 20px;
+    /* padding:; */
+    height: 60vh;
+    width: 80vh;
+    background-color: aqua;
+    /* position: relative; */
+    /* left: 25px; */
+}
+.box1{
+    background-color: rgb(14, 121, 214);
+    position: fixed;
+    /* position: static; */
+    /* position: sticky; */
+    /* position: absolute; */
+    top: 209px;
+    left: 399px;
+}
+.box2{
+    background-color: beige;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: chocolate;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box6{
+    background-color: purple;
+}
+.box7{
+    background-color: yellow;
+}

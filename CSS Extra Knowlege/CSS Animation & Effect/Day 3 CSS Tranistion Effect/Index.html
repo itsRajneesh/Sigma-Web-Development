@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transation Effect On Image</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            top: 150px;
+        }
+
+        #box img{
+            height: 400px;
+            width: 400px;
+        }
+
+        img:hover{
+            scale: 1.2;
+            transition: all ease 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="https://imgs.search.brave.com/AvknrVDh0hkpKXoD35FbQ-4y-lwy0REZ_xVzay8kMy8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDU0OTE5/MTQuanBn" alt="Shizuka">
+    </div>
+</body>
+</html>
