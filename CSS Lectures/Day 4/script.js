@@ -1,1 +1,0 @@
-alert("Now We Learn How to use heading and paragraph in using HTML \n There is 6 level of heading that we can use to decide the size.")

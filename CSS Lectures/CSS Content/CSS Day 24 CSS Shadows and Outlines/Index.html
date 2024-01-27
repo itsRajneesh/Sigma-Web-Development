@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows and outline</title>
+    <style>
+        .Heading{
+            text-align: center;
+            border: 2px solid black;
+            margin: 50px;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 5px red;
+            text-shadow: 5px 5px 5px orange;
+        }
+
+        .Content{
+            position: relative;
+            left: 45px;
+            text-align: center;
+            border: 2px solid black;
+            margin: 45px;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            width: 550px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 500px;
+/* Using box Shadows And text shadow  */
+            box-shadow: 5px 5px 5px red;
+            text-shadow: 5px 5px 5px orange;
+
+/* Using outline; */
+outline: 2px solid blueviolet;
+outline-offset: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Heading">
+        <h1>Let's Learn CSS Shadows And Outlines</h1>
+    </div>
+
+    <div class="Content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, aspernatur! Inventore consequuntur deserunt,
+            recusandae autem earum molestias deleniti eum veniam nam, natus similique error fuga vel voluptas ipsam
+            accusantium nobis! Maxime esse asperiores architecto corrupti, quia quas ad eligendi aspernatur reprehenderit
+            blanditiis temporibus quo a, vel aliquid? Quas ab vitae deserunt asperiores culpa illo a harum quisquam veniam
+            doloremque nostrum consequuntur, assumenda tempore? Alias dolorem ducimus consequuntur quam? Nesciunt voluptatum
+            eaque dolorum, corrupti quam magni eligendi nisi ex officia veritatis, quia dignissimos ad dolores eveniet
+            voluptates velit aut, exercitationem tempora earum totam quidem placeat. Nisi quibusdam esse delectus magnam
+            maiores!
+    </div>
+</body>
+
+</html>

@@ -1,8 +1,0 @@
-div :first-child{
-    background-color: yellow;
-    color: red;
-}
-div :not(:first-child){
-    background-color: yellow;
-    color: red;
-}

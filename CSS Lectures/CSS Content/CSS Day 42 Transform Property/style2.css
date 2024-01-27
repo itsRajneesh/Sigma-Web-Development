@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.box{
+    height: 150px;
+    width: 300px;
+    background: blueviolet;
+    cursor: pointer;
+    text-align: center;
+    line-height: 150px;
+    color: #FFF;
+}
+.burly{
+    background-color: red;
+}
+.Scale-X{
+    transform: scaleX(1);
+    transition: 1s;
+}
+.box:hover .Scale-X{
+    transform: scaleX(1.5);
+}
+
+
+.Scale-Y{
+    transform: scaleY(1);
+    transition: 0.5s;
+}
+.box:hover .Scale-Y{
+    transform: scaleY(1.3);
+}
+
+
+.Scale{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.box:hover .Scale{
+    transform: scale(1.1);
+}
+
+
+
+.translateX{
+    transform: translateX(1);
+    transition: 0.5s;
+}
+.box:hover .translateX{
+    transform: translateX(5em);
+}
+
+
+.translateY{
+    transform: translateY(1);
+    transition: 0.5s;
+}
+.box:hover .translateY{
+    transform: translateY(5em);
+}
+
+
+.translate{
+    transform: translate(1, 1);
+    transition: 0.5s;
+}
+.box:hover .translate{
+    transform: translate(2em, 2em);
+}

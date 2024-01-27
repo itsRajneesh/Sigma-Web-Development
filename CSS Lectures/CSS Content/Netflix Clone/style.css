@@ -1,0 +1,574 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #343434;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg");
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    height: 98vh;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.main .box {
+    height: 98vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 180px;
+    position: relative;
+    z-index: 10;
+}
+#Netflix-Language{
+    position: relative;
+    padding-left: 10px;
+    z-index: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+}
+#Netflix-Language:hover{
+    border: 3px solid white;
+    border-radius: 7px;
+}
+.bottonbox{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;   
+}
+.Sign-in{
+    height: 35px;
+    line-height: 35px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: 550;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    color: white; 
+    top: 25%;
+    line-height: 80px;
+    width: 100vw;
+}
+h1{
+    font-size: 2.8em;
+    font-weight: 900;
+}
+h6{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+#Boom{
+    font-size: 1.35em;
+    line-height: 50px;
+    font-weight: lighter;
+}
+.loginbox{
+    display: flex;
+    gap: 10px;
+}
+.login{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#Emailbox {
+    color: white;
+    padding-left: 20px;
+    height: 47px;
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+#Emailbox:hover{
+    border: 3px solid white;
+}
+
+.main2{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 80%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.textarea{
+    height: 50%;
+    width: 530px;
+    left: 100px;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.textarea h1{
+    font-size: 3.21em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+.textarea h2{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.media{
+    display: flex;
+    margin-right: 250px;
+    align-items: center;
+}
+.media img{
+    height: 450px;
+    width: 555px;
+    position: absolute;
+    z-index: 1;
+}
+.media video{
+    position: relative;
+    left: 72px;
+}
+.main3{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.main3image img{
+    margin-left: 100px;
+    width: 500px;
+}
+.box3{
+    border: 1px solid rgba(128,128,128,0.7);
+    border-radius: 8px;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 140px;
+    left: 200px;
+    height: 95px;
+    width: 300px;
+}
+.Main3-Inside-Image-Area{
+    position: relative;
+    height: 90px;
+    width: 85px;
+}
+.StrangerImage{
+    overflow-y: hidden;
+    width: 70px;
+}
+.StrangerImage img{
+    position: relative;
+    display: flex;
+    top: 2px;
+    right: 98px;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.M3TextArea{
+    position: relative;
+    right: 10px;
+    height: 90px;
+    width: 130px;
+}
+.Download-Animation{
+    position: relative;
+    right: 5px;
+    height: 90px;
+    width: 85px;
+}
+
+.M3TextArea p{
+    margin-left: 5px;
+    position: relative;
+    top: 30px;
+    text-align-last: left;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+
+}
+#M3TextArea-Download-Para{
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #0071eb;
+}
+.Main3-Inside-Video-Area{
+    position: relative;
+    height: 90px;
+    width: 85px;
+}
+.Download-Animation img{
+    z-index: 10;
+    position: relative;
+    right: 100px;
+    display: flex;
+    top: 20px;
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+}
+.Main3-Text-Area{
+    height: 40%;
+    width: 40%;
+    color: white;
+}
+#Main3-TextArea-h1{
+    font-size: 3.2em;
+}
+.Main3-Text-Area p{
+    font-size: 1.5em;
+}
+.main4{
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+.Main4-Text-Area{
+    height: 40%;
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    left: 50px;
+}
+.Main4-Text-Area h1{
+    font-size: 3.5em;
+    letter-spacing: -1px;
+    color: white;
+}
+.Main4-Text-Area p{
+    color: white;
+    font-size: 1.54em;
+}
+.Main4-Media-Area{
+    position: relative;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    width: 40%;
+    overflow-y: hidden;
+}
+.Main4-Media-Area img{
+    position: absolute;
+    height: 400px;
+    z-index: 10;
+}
+.Main4-Media-Area video{
+    position: relative;
+    height: 187px;
+    bottom: 60px;
+}
+.main5{
+    height: 80vh;
+    width: 100vw;
+    margin-bottom: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Main5-Image-Area{
+    margin-left: 50px;
+    height: auto;
+    width: auto;
+}
+.Main5-text-Area{
+    position: relative;
+    right: 80px;
+    width: 585px;
+    color: white;
+}
+.Main5-text-Area p{
+    font-size: 1.5em;
+}
+.main6{
+    height: auto;
+    width: 100vw;
+    margin-bottom: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main6-Content-Zone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    /* background-color: purple; */
+    margin-top: 70px;
+}
+.Main6-Content-Zone h1{
+    
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Main6-Box1{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Box1-Insider{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+.Main6-Box2{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Box3{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Box4{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Box5{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Box6{
+    width: 75vw;
+    height: 85px;
+    background-color: rgba(45, 45, 45);
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Main6-Boxes:hover{
+    background-color: rgb(120, 118, 118);
+    transition: all 0.5s ease-out;
+}
+.Main6-textArea{
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+#Main6-Email input{
+    border: none;
+    border-color: white;
+}
+#Main6-Email{
+    margin-top: 30px;
+    padding-left: 20px;
+    height: 50px;
+    width: 355px;
+    background-color: transparent;
+    border: 2px solid rgb(120, 118, 118);
+    border-radius: 5px;
+    color: white;
+    z-index: 10;
+}
+.Main6-Login-Area{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.Main6-Login-Area button{
+    position: relative;
+    top: 2.5px;
+    border-radius: 5px;
+    height: 54px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.Main6-Login-Area button:hover{
+    background-color: rgba(255, 0, 0, 0.823);
+}
+footer{
+    height: 58vh;
+    width: 100vw;
+    background-color: black;
+    color: #a9a9a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: #a9a9a9;
+    font-size: 16px;
+}
+footer a:active{
+    color: red;
+}
+.footer-text-Container{
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.Footer-Container{
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+}
+#Footer-Netflix-Language{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: 150px;
+    font-size: 16px;
+}
+.Footer-C1{
+    grid-column: 1/2;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.Footer-C1 p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.Footer-C2{
+    grid-column: 2/3;
+    font-size: 18px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Footer-C3{
+    grid-column: 3/4;
+    font-size: 18px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Footer-C4{
+    grid-column: 4/5;
+    font-size: 18px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
