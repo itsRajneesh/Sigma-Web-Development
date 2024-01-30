@@ -10,8 +10,8 @@ body {
 }
 
 .main {
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg");
-    background-position: bottom bottom;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg");
+    background-position: top top;
     background-repeat: no-repeat;
     height: 98vh;
     position: relative;
@@ -21,7 +21,7 @@ body {
 .main .box {
     height: 98vh;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.68;
     position: absolute;
     top: 0;
     background-color: black;
@@ -38,7 +38,7 @@ nav {
 
 nav img {
     color: red;
-    width: 180px;
+    width: 160px;
     position: relative;
     z-index: 10;
 }

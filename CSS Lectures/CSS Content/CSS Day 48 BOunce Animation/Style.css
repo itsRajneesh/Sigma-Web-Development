@@ -20,7 +20,7 @@
     text-align: center;
     line-height: 100px;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: Animation1 3s ease-in-out  infinite forwards;
+    animation: Animation1 5s ease-out  infinite forwards;
 }
 @keyframes Animation1 {
     25%{
