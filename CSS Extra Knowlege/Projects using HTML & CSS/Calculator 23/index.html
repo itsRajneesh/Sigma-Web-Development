@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bike Affordability Calculator</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #calculator {
+        border: 2px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+<div id="calculator">
+    <h2>Bike Affordability Calculator</h2>
+    <label for="bikePrice">Bike Price (₹):</label>
+    <input type="number" id="bikePrice" min="0" required><br><br>
+    <button onclick="calculateRequiredSalary()">Calculate Required Salary</button><br><br>
+    <div id="result"></div>
+</div>
+
+<script>
+function calculateRequiredSalary() {
+    var bikePrice = parseFloat(document.getElementById('bikePrice').value);
+
+    var downPayment = 0.15 * bikePrice;
+    console.log(downPayment)
+    var loanAmount = bikePrice - downPayment;
+    var monthlyInterestRate = 0.09 / 12;
+    var numberOfPayments = 3 * 12;
+
+    var monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
+
+    var requiredSalary = monthlyPayment / 0.05; // Dividing by 0.05 to get the salary
+
+    var resultElement = document.getElementById('result');
+    resultElement.textContent = 'You need a monthly salary of at least ₹' + requiredSalary.toFixed(2) + ' to afford the bike.';
+}
+</script>
+</body>
+</html>

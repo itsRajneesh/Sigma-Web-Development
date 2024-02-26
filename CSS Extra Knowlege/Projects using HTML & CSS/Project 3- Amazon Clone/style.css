@@ -11,12 +11,12 @@
     border: 1.5px solid white;
 }
 .nav-search:hover{
-    border: 3px solid #e265c2;
+    border: 3px solid #febd69;
     border-radius: 5px;
 }
 .navbar{
     height: 60px;
-    background-color: #195851;
+    background-color: #131921;
     color: white;
     display: flex;
     align-items: center;
@@ -73,7 +73,7 @@
 .search-icon{
     font-size: 1.3rem;
     color: black;
-    background-color: #ffdff7;
+    background-color: #febd69;
     width: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -119,7 +119,7 @@
 .panel {
     color: white;
     height: 40px;
-    background-color: rgb(35, 105, 97);
+    background-color: #232F3E;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

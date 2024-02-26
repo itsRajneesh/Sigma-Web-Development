@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+</head>
+<body>
+    <script>
+        let Request = prompt("Enter your Request Here: ");
+        let todo = [];
+        while(true){
+            if(Request == "quit"){
+                console.log("Quitting App");
+                break;
+            }
+            if (Request == "list"){
+                console.log("---------------");
+                for(i=0; i<todo.length; i++){
+                    console.log(i ,todo[i])
+                }
+                console.log("---------------");
+            }
+            else if(Request == "add"){
+                let task = prompt("Enter Your Task which you want to add");
+                todo.push(task);
+                console.log("Task Added");
+            }
+            else if(Request == "delete"){
+                let idx = prompt("Enter The index of Task which You Want to delete: ");
+                todo.splice(idx, 1)
+                console.log("Iteam Deleted");
+            }
+            else{
+                console.log("Wrong Request Try again!!!")
+            }
+            Request = prompt("Enter your Request Here: ");
+        }
+
+    </script>
+</body>
+</html>

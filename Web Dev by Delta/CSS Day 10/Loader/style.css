@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 150px;
+    width: 150px;
+    border: 12px solid #a9a9a9cb;
+    border-radius: 360px;
+    border-top-color: goldenrod;
+    animation: Animation 3s ease-in-out infinite ;
+}
+@keyframes Animation {
+    100%{
+        rotate: 360deg;
+    }
+}

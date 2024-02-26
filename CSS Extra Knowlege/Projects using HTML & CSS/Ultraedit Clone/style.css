@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    
 }
 .container {
     padding-left: 40px;
@@ -16,17 +15,14 @@
     grid-template-rows: repeat(15, 1fr);
     justify-content: center;
 }
-
 .iteam {
-    padding: 12px;
+   padding: 12px;
 }
-
 .iteam img:hover{
     cursor: pointer;
     filter: drop-shadow(0 0 0.75rem yellow);
 }
 /* Adding Desgining in Iteam-1 of Grid  */
-
 .iteam-1 {
     grid-column: 2/10;
     display: flex;
@@ -34,7 +30,6 @@
     font-size: 1.2em;
     align-content: center;
 }
-
 .naviteams {
     position: relative;
     left: 500px;
@@ -195,6 +190,7 @@ h6 {
 .box:hover {
     scale: 1.05;
     transition: all ease 0.6s;
+    filter: drop-shadow(0 0 1rem black);
 }
 
 .download-34bit:hover{background-color: #249D9F;}
